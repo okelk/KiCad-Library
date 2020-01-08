@@ -1,4 +1,4 @@
-(module Potentiometer_Alpha_RD901F-40-00D_Single_Vertical (layer F.Cu) (tedit 5DC4BBEB)
+(module Potentiometer_Alpha_RD901F-40-00D_Single_Vertical (layer F.Cu) (tedit 5E15F916)
   (descr "Potentiometer, vertical, 9mm, single, http://www.taiwanalpha.com.tw/downloads?target=products&id=113")
   (tags "potentiometer vertical 9mm single")
   (fp_text reference REF** (at 6.71 -4.64 180) (layer F.SilkS)
@@ -31,11 +31,11 @@
   (pad 1 thru_hole oval (at 0 0 90) (size 1.6 2.1) (drill 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole oval (at 0 2.5 90) (size 1.6 2.1) (drill 1) (layers *.Cu *.Mask))
   (pad 3 thru_hole oval (at 0 5 90) (size 1.6 2.1) (drill 1) (layers *.Cu *.Mask))
-  (pad "" thru_hole oval (at 7.5 7.3 90) (size 2.72 3.24) (drill oval 1.1 1.8) (layers *.Cu *.Mask))
-  (pad "" thru_hole oval (at 7.5 -2.3 90) (size 2.72 3.24) (drill oval 1.1 1.8) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Potentiometer_THT.3dshapes/Potentiometer_Alpha_RD901F-40-00D_Single_Vertical.wrl
-    (at (xyz 0 0 0))
+  (pad "" thru_hole oval (at 7.5 7.3 90) (size 2.8 3.2) (drill oval 1.8 2.1) (layers *.Cu *.Mask))
+  (pad "" thru_hole oval (at 7.5 -2.3 90) (size 2.8 3.2) (drill oval 1.8 2.1) (layers *.Cu *.Mask))
+  (model C:/Users/kle/Documents/GitHub/KiCad-Library/3D-Models/ALPS-RK09K.step
+    (offset (xyz 7.112000000000001 -2.54 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 90))
   )
 )
