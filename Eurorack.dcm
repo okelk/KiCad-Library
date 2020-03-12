@@ -1,5 +1,68 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74HC393
+D Dual BCD 4-bit counter
+K CNT CNT4 CMOS HC
+$ENDCMP
+#
+$CMP 74HCT393
+D Dual BCD 4-bit counter
+K TTL CNT CNT4 CMOS HCT
+$ENDCMP
+#
+$CMP AMSRB1-7805JZ
+D Positive 1A Switching Regulator, Fixed Output 5V, TO-220
+K Voltage Swtching Regulator 1A Positive
+$ENDCMP
+#
+$CMP AMSRB1-78xx
+D Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP AOD407
+D -35A Id, -60V Vds, P-Channel Power MOSFET, 25mOhm Ron, 25.0nC Qg (typ), TO252
+K P-Channel MOSFET
+F http://aosmd.com/pdfs/datasheet/AOD407.pdf
+$ENDCMP
+#
+$CMP AOD409
+D 60V P-Channel MOSFET
+K P-Channel Power MOSFET
+F www.aosmd.com/pdfs/datasheet/AOI409.pdf
+$ENDCMP
+#
+$CMP ATA00AA36S-L
+D Artesyn 3W Isolated DC/DC Converter Module, ±5V Output Voltage, 18-75V Input Voltage
+K DC/DC converter dual
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
+$CMP ATA00BB18S-L
+D Artesyn 3W Isolated DC/DC Converter Module, ±12V Output Voltage, 9-36V Input Voltage
+K DC/DC converter dual
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
+$CMP ATA00BB36S-L
+D Artesyn 3W Isolated DC/DC Converter Module, ±12V Output Voltage, 18-75V Input Voltage
+K DC/DC converter dual
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
+$CMP ATA00CC18S-L
+D Artesyn 3W Isolated DC/DC Converter Module, ±15V Output Voltage, 9-36V Input Voltage
+K DC/DC converter dual
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
+$CMP ATA00CC36S-L
+D Artesyn 3W Isolated DC/DC Converter Module, ±15V Output Voltage, 18-75V Input Voltage
+K DC/DC converter dual
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
 $CMP AudioJack2_SwitchT
 D Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)
 K audio jack receptacle mono headphones phone TS connector
@@ -22,6 +85,65 @@ $CMP DC_Barrel_Cliff_DC10LP_FCR681465P
 D DC Barrel Jack with an internal switch
 K DC power barrel jack connector
 F ~
+$ENDCMP
+#
+$CMP L7805
+D Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252
+K Voltage Regulator 1.5A Positive
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf
+$ENDCMP
+#
+$CMP L7806
+D Positive 1.5A 35V Linear Regulator, Fixed Output 6V, TO-220/TO-263/TO-252
+K Voltage Regulator 1.5A Positive
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf
+$ENDCMP
+#
+$CMP L7808
+D Positive 1.5A 35V Linear Regulator, Fixed Output 8V, TO-220/TO-263/TO-252
+K Voltage Regulator 1.5A Positive
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf
+$ENDCMP
+#
+$CMP L7809
+D Positive 1.5A 35V Linear Regulator, Fixed Output 9V, TO-220/TO-263/TO-252
+K Voltage Regulator 1.5A Positive
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf
+$ENDCMP
+#
+$CMP L7812
+D Positive 1.5A 35V Linear Regulator, Fixed Output 12V, TO-220/TO-263/TO-252
+K Voltage Regulator 1.5A Positive
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf
+$ENDCMP
+#
+$CMP L7815
+D Positive 1.5A 35V Linear Regulator, Fixed Output 15V, TO-220/TO-263/TO-252
+K Voltage Regulator 1.5A Positive
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf
+$ENDCMP
+#
+$CMP L7818
+D Positive 1.5A 35V Linear Regulator, Fixed Output 18V, TO-220/TO-263/TO-252
+K Voltage Regulator 1.5A Positive
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf
+$ENDCMP
+#
+$CMP L7824
+D Positive 1.5A 40V Linear Regulator, Fixed Output 24V, TO-220/TO-263/TO-252
+K Voltage Regulator 1.5A Positive
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf
+$ENDCMP
+#
+$CMP L7885
+D Positive 1.5A 35V Linear Regulator, Fixed Output 8.5V, TO-220/TO-263/TO-252
+K Voltage Regulator 1.5A Positive
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf
+$ENDCMP
+#
+$CMP NSD10-12D12
+D Meanwell Isolated DC/DC Converter Module, ±12V Output Voltage, 9-36V Input Voltage
+K DC/DC converter dual
 $ENDCMP
 #
 #End Doc Library
