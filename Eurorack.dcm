@@ -1,13 +1,29 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 27C256
+D Paged Parallel EROM 256Kb (32K x 8), DIP-28/SOIC-28 UV erasable
+K Parallel EEPROM 256Kb
+$ENDCMP
+#
 $CMP 74HC393
 D Dual BCD 4-bit counter
 K CNT CNT4 CMOS HC
 $ENDCMP
 #
+$CMP 74HC4046
+D Phase Comp & VCO
+K CMOS PLL
+F https://assets.nexperia.com/documents/data-sheet/HEF4046B.pdf
+$ENDCMP
+#
 $CMP 74HCT393
 D Dual BCD 4-bit counter
 K TTL CNT CNT4 CMOS HCT
+$ENDCMP
+#
+$CMP AD7524
+D DA Converter 8 bits
+K DAC CNA
 $ENDCMP
 #
 $CMP AMSRB1-7805JZ
@@ -81,6 +97,12 @@ K DC power barrel jack connector
 F ~
 $ENDCMP
 #
+$CMP DAC0800_SOIC
+D 8-bit multiplying DAC
+K 8 bit multiplying DAC
+F https://www.ti.com/lit/ds/symlink/dac0800.pdf
+$ENDCMP
+#
 $CMP DC_Barrel_Cliff_DC10LP_FCR681465P
 D DC Barrel Jack with an internal switch
 K DC power barrel jack connector
@@ -144,6 +166,24 @@ $ENDCMP
 $CMP NSD10-12D12
 D Meanwell Isolated DC/DC Converter Module, ±12V Output Voltage, 9-36V Input Voltage
 K DC/DC converter dual
+$ENDCMP
+#
+$CMP R_POT
+D Potentiometer
+K resistor variable
+F ~
+$ENDCMP
+#
+$CMP R_POT_Small
+D Potentiometer
+K resistor variable
+F ~
+$ENDCMP
+#
+$CMP TLC7524
+D DA Converter 8 bits
+K DAC CNA
+F https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlc7524
 $ENDCMP
 #
 #End Doc Library

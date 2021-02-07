@@ -1,0 +1,10 @@
+(module MountingHole-eurorack-TopLeft-NPTH (layer F.Cu) (tedit 5EBE88DA)
+  (fp_text reference REF** (at 0.254 2.54) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value MountingHole-eurorack-TopLeft-NPTH (at 0.508 1.016) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole oval (at 7.5 3) (size 5 3.2) (drill oval 5 3.2) (layers *.Cu *.Mask)
+    (zone_connect 2))
+)
