@@ -163,6 +163,10 @@ K Voltage Regulator 1.5A Positive
 F http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf
 $ENDCMP
 #
+$CMP LM3900
+F https://www.ti.com/lit/gpn/LM3900
+$ENDCMP
+#
 $CMP NSD10-12D12
 D Meanwell Isolated DC/DC Converter Module, ±12V Output Voltage, 9-36V Input Voltage
 K DC/DC converter dual
@@ -184,6 +188,11 @@ $CMP TLC7524
 D DA Converter 8 bits
 K DAC CNA
 F https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlc7524
+$ENDCMP
+#
+$CMP VBAT
+D Power symbol creates a global label with name "VBAT"
+K power-flag
 $ENDCMP
 #
 #End Doc Library
