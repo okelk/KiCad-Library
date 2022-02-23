@@ -26,6 +26,12 @@ D DA Converter 8 bits
 K DAC CNA
 $ENDCMP
 #
+$CMP ADG409
+D double  4-channel analog multiplexer/demultiplexer, TSSOP-16/DIP-16/SOIC-16
+K analog switch selector multiplexer
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG408_409.pdf
+$ENDCMP
+#
 $CMP AMSRB1-7805JZ
 D Positive 1A Switching Regulator, Fixed Output 5V, TO-220
 K Voltage Swtching Regulator 1A Positive
@@ -109,6 +115,12 @@ K DC power barrel jack connector
 F ~
 $ENDCMP
 #
+$CMP DG409
+D double  4-channel analog multiplexer/demultiplexer, TSSOP-16/DIP-16/SOIC-16
+K analog switch selector multiplexer
+F https://www.vishay.com/docs/70062/dg408.pdf
+$ENDCMP
+#
 $CMP L7805
 D Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252
 K Voltage Regulator 1.5A Positive
@@ -165,6 +177,12 @@ $ENDCMP
 #
 $CMP LM3900
 F https://www.ti.com/lit/gpn/LM3900
+$ENDCMP
+#
+$CMP MAX309
+D double  4-channel analog multiplexer/demultiplexer, TSSOP-16/DIP-16/SOIC-16
+K analog switch selector multiplexer
+F https://datasheets.maximintegrated.com/en/ds/MAX308-MAX309.pdf
 $ENDCMP
 #
 $CMP NSD10-12D12
