@@ -1,0 +1,219 @@
+(footprint "Converter_DCDC_MeanWell_NSD10-12D12"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -23.495 13.97 0)
+		(layer "F.SilkS")
+		(uuid "0daaa177-496b-49b5-a738-3da9c2ba5e61")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Converter_DCDC_MeanWell_NSD10-12D12"
+		(at 0 -5.08 0)
+		(layer "F.Fab")
+		(uuid "66be5afa-70e9-4b0c-af52-b5603796f41f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2349e2de-3c4f-4769-951f-1386be969ef7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6db89243-4a29-42dc-bacb-161a2b1af6ec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -25.4 -12.7)
+		(end -25.4 12.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e375a5a2-d63d-4f39-a4ef-daa5cc89fed2")
+	)
+	(fp_line
+		(start -25.4 12.7)
+		(end 25.4 12.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7bdb1a26-8a1b-49c6-97fa-343450f2b928")
+	)
+	(fp_line
+		(start 25.4 -12.7)
+		(end -25.4 -12.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f09e986e-5ec6-4473-bb3b-486f6bbb8212")
+	)
+	(fp_line
+		(start 25.4 12.7)
+		(end 25.4 -12.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a110d6ce-cec0-47fb-b925-a35bab523f25")
+	)
+	(fp_text user "COM"
+		(at 16.51 0 0)
+		(layer "F.SilkS")
+		(uuid "10eaa1bd-8f5d-4654-9aaa-b53fc32801eb")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "-Vin"
+		(at -14.605 -2.54 0)
+		(layer "F.SilkS")
+		(uuid "1967cfa1-8652-48d8-8183-0e5fbfb54eff")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+Vout"
+		(at 15.24 10.16 0)
+		(layer "F.SilkS")
+		(uuid "1a22f3e6-83f6-4946-9090-ba07150344a8")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+Vin"
+		(at -14.605 2.54 0)
+		(layer "F.SilkS")
+		(uuid "38d0c97a-d4c4-43fa-bea2-febcab577ccb")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "-Vout"
+		(at 15.24 -10.16 0)
+		(layer "F.SilkS")
+		(uuid "5b19e9df-c64b-4413-b281-cc346c2a245a")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "R.C."
+		(at -14.605 -10.16 0)
+		(layer "F.SilkS")
+		(uuid "f04c0a5f-c66a-4f16-87ad-97921f0af987")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -10.16 2.54 90)
+		(size 2.1 2.1)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1217e7ec-9996-43c0-a328-cd97d5c27b4d")
+	)
+	(pad "2" thru_hole circle
+		(at -10.16 -2.54 90)
+		(size 2.1 2.1)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7697def0-f3e1-4e65-b524-0ebd3d26bdeb")
+	)
+	(pad "3" thru_hole circle
+		(at 10.16 10.16 90)
+		(size 2.1 2.1)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "23ea1576-cc61-45cb-8067-c487c4fe2f54")
+	)
+	(pad "4" thru_hole circle
+		(at 10.16 0 90)
+		(size 2.1 2.1)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "49b6864a-ac43-49e2-8bb4-0f2515f80008")
+	)
+	(pad "5" thru_hole circle
+		(at 10.16 -10.16 90)
+		(size 2.1 2.1)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "54ee282d-91c5-4d03-818d-efcd04ef790e")
+	)
+	(pad "6" thru_hole circle
+		(at -10.16 -10.16 90)
+		(size 2.1 2.1)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a9627cba-9f31-403e-89c3-23f85c6bbd16")
+	)
+	(embedded_fonts no)
+	(model "${MYGITHUB}/3D-Models/nsd10.step"
+		(offset
+			(xyz -25.4 12.7 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 0 0)
+		)
+	)
+)

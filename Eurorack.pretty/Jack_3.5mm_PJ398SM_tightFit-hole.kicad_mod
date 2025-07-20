@@ -1,0 +1,276 @@
+(footprint "Jack_3.5mm_PJ398SM_tightFit-hole"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TRS 3.5mm, vertical, Thonkiconn, PCB mount, (http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html)")
+	(tags "WQP-PJ398SM WQP-PJ301M-12 TRS 3.5mm mono vertical jack thonkiconn qingpu")
+	(property "Reference" "REF**"
+		(at 0.635 3.175 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f554a8ed-815f-4952-ad28-14ec775b7e4f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PJ398SM"
+		(at 0.127 7.62 180)
+		(layer "F.Fab")
+		(uuid "8a17e3e4-e420-4914-890c-a3cdfa8721d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82dcb622-bcd4-42a4-b5d2-253adfe75cf0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f321b0d3-71e8-461b-9d28-a6d88f32208d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "abee8c3d-526a-4b30-9dd4-852034cc08af")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.5 -4.5)
+		(end -4.5 6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6bebf7d-2805-4b8b-9b83-56b7e51f8f69")
+	)
+	(fp_line
+		(start -0.5 6)
+		(end -4.5 6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "67dfcee3-7f15-4121-a4d0-03a572fdd63c")
+	)
+	(fp_line
+		(start -0.35 -4.5)
+		(end -4.5 -4.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "75953f8d-3002-49a6-9a2c-4da793cfe182")
+	)
+	(fp_line
+		(start 4.5 -4.5)
+		(end 0.35 -4.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "26c1c4d7-6a7d-479d-9e4c-c00cda8aadd9")
+	)
+	(fp_line
+		(start 4.5 -4.5)
+		(end 4.5 6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83b1631b-7610-4cba-9d66-446242b90342")
+	)
+	(fp_line
+		(start 4.5 6)
+		(end 0.5 6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c1026a04-3054-4e3f-8712-abc0078fac37")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.8 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "30563139-70b4-4bb0-9703-13b62cf45885")
+	)
+	(fp_line
+		(start -4.5 6)
+		(end -4.5 -4.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5549a132-ce8e-4eeb-a821-26eef7d11e6f")
+	)
+	(fp_line
+		(start 0 -5.08)
+		(end 0 -4.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "97e1c683-ea4c-48c8-ad52-ad764c0ddea4")
+	)
+	(fp_line
+		(start 4.5 -4.45)
+		(end -4.5 -4.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dcb81027-0143-4aca-9253-3f149a6235ff")
+	)
+	(fp_line
+		(start 4.5 6)
+		(end -4.5 6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e51e85f8-bfce-4b76-8f3a-8a2c0391fe8e")
+	)
+	(fp_line
+		(start 4.5 6)
+		(end 4.5 -4.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1a296bff-03a2-444e-b3e7-f95aa1c5ed7d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.8 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "91a9da86-2096-4ce4-b354-4501260384fb")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.05 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.9")
+		(uuid "f90181d3-31cf-4fb2-9c8a-687549e138fa")
+	)
+	(fp_text user "REF**"
+		(at 0.508 2.794 180)
+		(layer "F.SilkS")
+		(uuid "0a9ccfa1-a52e-45e7-bd22-42f62df49625")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${VALUE}"
+		(at 4.572 -5.334 0)
+		(layer "F.SilkS")
+		(uuid "780fa5e5-3f40-4807-9da7-b14801959b77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0 180)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "06b86299-c48b-481a-a0a9-27696f4b0558")
+	)
+	(pad "S" thru_hole oval
+		(at 0 -5.48 180)
+		(size 1.9 1.2)
+		(drill oval 1.3 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "58a34f18-8aa5-4213-aa91-61fdba4ca0d0")
+	)
+	(pad "T" thru_hole oval
+		(at 0 4.92 180)
+		(size 2.1 1.2)
+		(drill oval 1.5 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5890dfa9-7d65-4819-a197-b81804f58b14")
+	)
+	(pad "TN" thru_hole oval
+		(at 0 -3.38 180)
+		(size 2.1 1.2)
+		(drill oval 1.5 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "57cdb4c5-ee6d-45fc-984e-d4e7980f8497")
+	)
+	(model "${MYGITHUB}/3D-Models/WQP-PJ398SM-tightFit.step"
+		(offset
+			(xyz 0 -0.762 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+)

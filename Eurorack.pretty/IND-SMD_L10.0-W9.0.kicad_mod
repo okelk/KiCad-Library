@@ -1,0 +1,251 @@
+(footprint "IND-SMD_L10.0-W9.0"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" ""
+		(at 0 -5.662 0)
+		(layer "F.SilkS")
+		(uuid "2c970b5d-a34e-440a-9389-cb0f935a968e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND-SMD_L10.0-W9.0"
+		(at 0 5.662 0)
+		(layer "F.Fab")
+		(uuid "c9418ae0-698d-451a-8558-ea18a27df87f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f40ab01d-4415-40e4-8e3e-e458f256de35")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1dd8bfa6-27d6-4fd4-89dc-faf2c616bf30")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02ba3ae7-2637-4988-9c55-f37b4ea9dce9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3DModel" "e95c4240603d4effbfbf8782142c0fc1"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "87d58e40-7e52-4a06-a22e-0a4d542e3eef")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3D_Size" "9 9.936"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "349c5320-c56a-48d8-9cf6-8ec3a4184981")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.0188 -4.7)
+		(end 1.0189 -4.7)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b6395fcd-95b5-4888-8516-3838f9e08f36")
+	)
+	(fp_line
+		(start -1.0188 4.7)
+		(end 1.0189 4.7)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fe76b3e9-52f8-4d69-8bc9-b1fcdb193d8a")
+	)
+	(fp_circle
+		(center -5 4.5001)
+		(end -4.97 4.5001)
+		(stroke
+			(width 0.06)
+			(type default)
+		)
+		(fill none)
+		(layer "User.5")
+		(uuid "ad6b2063-b527-4980-a5aa-35f5cfe75eed")
+	)
+	(pad "1" smd roundrect
+		(at -3.5999 0)
+		(size 4.5 9.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.05555555556)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "49b79b10-7daa-486d-9298-df6d986e4db9")
+	)
+	(pad "2" smd roundrect
+		(at 3.5999 0)
+		(size 4.5 9.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.05555555556)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "a855d789-867c-4d1f-95f6-338d6f269e31")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "User.3")
+		(uuid "b7b3c114-a8c4-41a1-bb80-4649a2ab8d33")
+		(hatch edge 0.5)
+		(priority 100)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -2.2 4.5) (xy -2.7 4.2) (xy -3.5 3.6) (xy -4.4 2.5) (xy -4.7 1.7) (xy -4.9 1) (xy -5 0.5) (xy -5 0)
+				(xy -5 -0.5) (xy -4.9 -1.1) (xy -4.7 -1.7) (xy -4.3 -2.6) (xy -3.9 -3.2) (xy -3.5 -3.6) (xy -2.7 -4.2)
+				(xy -2.2 -4.5) (xy 2.2 -4.5) (xy 3 -4) (xy 3.5 -3.6) (xy 4.4 -2.5) (xy 4.8 -1.4) (xy 5 -0.5) (xy 5 0)
+				(xy 5 0.5) (xy 4.9 1.1) (xy 4.7 1.7) (xy 4.4 2.4) (xy 3.9 3.2) (xy 3.6 3.5) (xy 3.1 3.9) (xy 2.7 4.2)
+				(xy 2.2 4.5)
+			)
+		)
+		(filled_polygon
+			(layer "User.3")
+			(island)
+			(pts
+				(xy -2.2 4.5) (xy -2.7 4.2) (xy -3.5 3.6) (xy -4.4 2.5) (xy -4.7 1.7) (xy -4.9 1) (xy -5 0.5) (xy -5 0)
+				(xy -5 -0.5) (xy -4.9 -1.1) (xy -4.7 -1.7) (xy -4.3 -2.6) (xy -3.9 -3.2) (xy -3.5 -3.6) (xy -2.7 -4.2)
+				(xy -2.2 -4.5) (xy 2.2 -4.5) (xy 3 -4) (xy 3.5 -3.6) (xy 4.4 -2.5) (xy 4.8 -1.4) (xy 5 -0.5) (xy 5 0)
+				(xy 5 0.5) (xy 4.9 1.1) (xy 4.7 1.7) (xy 4.4 2.4) (xy 3.9 3.2) (xy 3.6 3.5) (xy 3.1 3.9) (xy 2.7 4.2)
+				(xy 2.2 4.5)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "User.4")
+		(uuid "22c55123-0e24-4dfa-9b84-cb329e36a934")
+		(hatch edge 0.5)
+		(priority 100)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -5.0001 0.5) (xy -5.0001 -0.5) (xy -4.9 -1.1) (xy -4.7 -1.7) (xy -4.3 -2.6) (xy -3.9 -3.2) (xy -3.5 -3.6)
+				(xy -3.1 -3.9) (xy -2.7 -4.2) (xy -2.2 -4.5) (xy -1.7501 -4.5) (xy -1.7501 4.5) (xy -2.2 4.5) (xy -2.7 4.2)
+				(xy -3.1 3.9) (xy -3.5 3.6) (xy -4.4 2.5) (xy -4.7 1.7) (xy -4.8 1.4)
+			)
+		)
+		(filled_polygon
+			(layer "User.4")
+			(island)
+			(pts
+				(xy -5.0001 0.5) (xy -5.0001 -0.5) (xy -4.9 -1.1) (xy -4.7 -1.7) (xy -4.3 -2.6) (xy -3.9 -3.2) (xy -3.5 -3.6)
+				(xy -3.1 -3.9) (xy -2.7 -4.2) (xy -2.2 -4.5) (xy -1.7501 -4.5) (xy -1.7501 4.5) (xy -2.2 4.5) (xy -2.7 4.2)
+				(xy -3.1 3.9) (xy -3.5 3.6) (xy -4.4 2.5) (xy -4.7 1.7) (xy -4.8 1.4)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "User.4")
+		(uuid "d79ddd46-6a21-4375-bb28-8bed51f049ef")
+		(hatch edge 0.5)
+		(priority 100)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 5 -0.5) (xy 5 0.5) (xy 4.9 1.1) (xy 4.7 1.7) (xy 4.3 2.6) (xy 3.9 3.2) (xy 3.5 3.6) (xy 3.1 3.9)
+				(xy 2.7 4.2) (xy 2.2 4.5) (xy 1.7501 4.5) (xy 1.7501 -4.5) (xy 2.2 -4.5) (xy 2.7 -4.2) (xy 3.1 -3.9)
+				(xy 3.5 -3.6) (xy 4.4 -2.5) (xy 4.7 -1.7) (xy 4.8 -1.4)
+			)
+		)
+		(filled_polygon
+			(layer "User.4")
+			(island)
+			(pts
+				(xy 5 -0.5) (xy 5 0.5) (xy 4.9 1.1) (xy 4.7 1.7) (xy 4.3 2.6) (xy 3.9 3.2) (xy 3.5 3.6) (xy 3.1 3.9)
+				(xy 2.7 4.2) (xy 2.2 4.5) (xy 1.7501 4.5) (xy 1.7501 -4.5) (xy 2.2 -4.5) (xy 2.7 -4.2) (xy 3.1 -3.9)
+				(xy 3.5 -3.6) (xy 4.4 -2.5) (xy 4.7 -1.7) (xy 4.8 -1.4)
+			)
+		)
+	)
+	(model "${KIPRJMOD}/EASYEDA_MODELS/IND-SMD_L10.0-W9.0-H5.4.step"
+		(offset
+			(xyz -0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -270)
+		)
+	)
+)

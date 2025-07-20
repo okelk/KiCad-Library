@@ -1,0 +1,243 @@
+(footprint "Converter_DCDC_HI-LINK_URB2412LD-30WR3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DCDC-Converter, Meanwell, 1x2\", 30W, 12V")
+	(tags "DCDC, MEANWELL, 30W, 12V 2500mA")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f37a5c7f-6b9e-4db2-bee5-6cf29fdaace8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Converter_DCDC_HI-LINK_URB2412LD-30WR3"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e6df0d9c-47f5-4160-9c67-f3a8592139e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://drive.google.com/drive/folders/1StP-0SJDyFpH3yQMLLQjkQXMDXc-RGeP"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d85c2487-4b2f-457c-84df-bd1c5b8ad71d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4125bf14-f2c0-41fb-ac94-f217872f3166")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -25.146 -12.446)
+		(end 25.146 12.446)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "350c99d1-b5f8-4378-b0ca-7c13c0160bfb")
+	)
+	(fp_rect
+		(start -26.035 -13.335)
+		(end 26.035 13.335)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b17b5738-6f20-465e-8cc8-1cc8ba8cad51")
+	)
+	(fp_rect
+		(start -25.4 -12.7)
+		(end 25.4 12.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d6bf48cb-7a71-49d5-a71f-190423d25737")
+	)
+	(fp_text user "-Vout"
+		(at 20.32 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3252c316-86ec-4c88-bad9-5ff2d6efa311")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right)
+		)
+	)
+	(fp_text user "+Vout"
+		(at 20.32 -10.16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "50d8188f-5c41-40b0-9945-dd8b1bea2cd5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right)
+		)
+	)
+	(fp_text user "+Vin"
+		(at -21.336 7.62 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "75dc74ca-11f7-4ba9-939b-ff23b553ced4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "Trim"
+		(at 20.066 10.16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a855a155-0ae2-492a-b9df-73e2567afc3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d7fcfa08-c18d-44f0-ae53-fa2165618bce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "CTRL"
+		(at -21.336 -7.62 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dc8850fa-f719-4b1b-844f-82f5ce40961a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "-Vin"
+		(at -19.558 2.54 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e60762ca-4141-4eba-a33f-ca50fa7e7069")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -22.86 7.62)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "0998794d-bab3-40ad-bf03-3efb10a347f2")
+	)
+	(pad "2" thru_hole circle
+		(at -22.86 2.54)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "33c33f59-a900-4b2e-8186-652c37c5420c")
+	)
+	(pad "3" thru_hole circle
+		(at -22.86 -7.62)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "783c7e2e-93ad-4988-9864-ac1d87046550")
+	)
+	(pad "4" thru_hole circle
+		(at 22.86 -10.16)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d8f98951-cd69-4605-bb3a-f43ad94d0c4f")
+	)
+	(pad "5" thru_hole circle
+		(at 22.86 0)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3b956216-6221-4302-adc7-b76088a66c41")
+	)
+	(pad "6" thru_hole circle
+		(at 22.86 10.16)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c220f25c-6af2-488d-ad43-5c098737f1c6")
+	)
+	(embedded_fonts no)
+	(model "${MYGITHUB}/KiCad-Library/3D-Models/DCDC-Converter_1x2in.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
